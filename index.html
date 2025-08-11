@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="./index.css">
+    <title>WeatherLens</title>
+</head>
+<body>
+    <div class="weather-main-card">
+        <div class="searchbar">
+            <input type="text" placeholder="Enter the city" id="input-city">
+            <button class="input-btn" type="submit">submit</button>
+        </div>
+        <div class="weather-info">
+            <div class="card">
+                <div class="weather flex-card">
+                    <div class="imgs">
+                        <img src="./assests/clouds.png" alt="weather" class="weather-icon">
+                        <!-- <h5 class="weather-desc"> </h5> -->
+                    </div>
+                    <div class="card-weather">
+                        <h3 class="temp">25°C</h3>
+                        <h3 class="city-name">
+                        <h5 class="timezone"> </h5>
+                        <h5 class="date"> </h5>
+                        </h3>
+                    </div>
+                </div>
+                <div class="weather-2 flex-card2">
+                        <img src="/assests/humidity.png" alt="humidity" class="wet">
+                        <h5 class="humidity">45 %</h5>
+                        <h5>Humidity</h5>
+                </div>
+                <div class="weather-3 flex-card2">
+                        <img src="./assests/wind.png" alt="wind speed" class="wind">
+                        <h5 class="speed">25km/hr</h5>
+                        <h5>Wind Speed</h5>
+                </div>
+             </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
+
+<script src="./weather.js" defer></script>
+</body>
+</html>
